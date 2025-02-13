@@ -1,5 +1,6 @@
-import { IMAGE_URLS } from "../constants";
 import Carousel from "./Carousel";
+
+import { IMAGE_URLS } from "../constants";
 
 function Product() {
 

@@ -22,7 +22,7 @@ function Carousel({ title, imageUrls }) {
         <div className="flex flex-col items-center gap-1">
             <div className="flex items-center">
                 <Button type="carousel" onClick={handlePrev}><FaChevronLeft /></Button>
-                <img className="max-w-56 h-56 max-h-56 w-56" src={imageUrls[currentIndex]} alt={title} />
+                <img className="w-72 max-w-72 h-56 max-h-56" src={imageUrls[currentIndex]} alt={title} />
                 <Button type="carousel" onClick={handleNext}><FaChevronRight /></Button>
             </div>
             <div className="flex space-x-1">
