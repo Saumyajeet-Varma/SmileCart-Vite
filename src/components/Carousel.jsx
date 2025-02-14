@@ -14,7 +14,7 @@ function Carousel({ title, imageUrls }) {
     }
 
     function handlePrev() {
-        (currentIndex - 1 + imageUrls.length) % imageUrls.length;
+        const previousIndex = (currentIndex - 1 + imageUrls.length) % imageUrls.length;
         setCurrentIndex(previousIndex);
     }
 
